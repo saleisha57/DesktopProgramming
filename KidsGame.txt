@@ -1,0 +1,10 @@
+from random import randrange
+
+userAns = input("Guess a number between 1 and 10: ")
+
+ansNum = (randrange(10)+1)
+
+
+while(userAns > 10 or userAns < 1):
+	userAns = input("Enter a number between 1 and 10: ")
+
